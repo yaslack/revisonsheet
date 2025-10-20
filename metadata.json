@@ -1,0 +1,5 @@
+{
+  "name": "AI Revision Sheet Generator",
+  "description": "An application that intelligently processes large documents in optimized chunks to generate concise and beautiful revision sheets. Designed to work efficiently even on low-spec systems by minimizing AI context size and processing load.",
+  "requestFramePermissions": []
+}

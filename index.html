@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Revision Sheet Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.5.136/pdf.min.mjs" type="module"></script>
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styles for rich markdown rendering */
+        .custom-highlight-yellow {
+            background-color: rgba(250, 204, 21, 0.15); /* yellow-300 with opacity */
+            padding: 0.75em 1em;
+            border-radius: 0.5em;
+            border-left: 4px solid rgba(250, 204, 21, 0.8);
+            margin: 1em 0;
+        }
+        .custom-highlight-blue {
+            background-color: rgba(96, 165, 250, 0.15); /* blue-400 with opacity */
+            padding: 0.75em 1em;
+            border-radius: 0.5em;
+            border-left: 4px solid rgba(96, 165, 250, 0.8);
+            margin: 1em 0;
+        }
+        .custom-formula-box {
+            background-color: #1e293b; /* slate-800 */
+            border: 1px solid #334155; /* slate-700 */
+            padding: 1em;
+            border-radius: 0.5em;
+            margin: 1em 0;
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre-wrap;
+            overflow-x: auto;
+        }
+    </style>
+    
+<!-- Optional: include a built CSS bundle when using Tailwind/PostCSS. Removed to avoid 404. -->
+</head>
+<body class="bg-slate-900">
+    <div id="root"></div>
+
+    <!-- Removed inlined API key. Configure your LM Studio server via the Settings modal. -->
+
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
